@@ -1,0 +1,51 @@
+GIT
+  remote: git://github.com/rom-rb/rom-csv.git
+  revision: 5328238bd9bd31a63552b7179c52751c5f092875
+  specs:
+    rom-csv (0.2.0)
+      rom (~> 1.0.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (4.2.5)
+      i18n (~> 0.7)
+      json (~> 1.7, >= 1.7.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.3, >= 0.3.4)
+      tzinfo (~> 1.1)
+    distance_measures (0.0.6)
+    dry-equalizer (0.2.0)
+    i18n (0.7.0)
+    json (1.8.3)
+    k_means (0.0.7)
+      distance_measures (>= 0.0.0)
+    minitest (5.8.3)
+    rom (1.0.0)
+      dry-equalizer (~> 0.2)
+      rom-mapper (~> 0.3.0)
+      rom-support (~> 1.0.0)
+    rom-mapper (0.3.0)
+      dry-equalizer (~> 0.2)
+      rom-support (~> 1.0.0)
+      transproc (~> 0.4.0)
+    rom-support (1.0.0)
+      dry-equalizer (~> 0.2)
+      transproc (~> 0.4.0)
+      wisper (~> 1.6, >= 1.6.0)
+    thread_safe (0.3.5)
+    transproc (0.4.0)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+    wisper (1.6.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  activesupport
+  k_means
+  rom-csv!
+
+BUNDLED WITH
+   1.11.2
